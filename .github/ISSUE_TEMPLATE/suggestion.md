@@ -1,7 +1,7 @@
 ---
 name: Suggestion
 about: Suggest a study, article, resource, or link for Fragrance Free Future
-title: "[SOURCE]"
+title: "(Name your suggestion here if you would like)"
 labels: ''
 assignees: ''
 
@@ -22,7 +22,7 @@ Category:
 From this list, please delete all items except the one that fits best.
 - Research Study
 - News Article
-- Personal Story
+- Personal Story (to share your own story please see our Stories page)
 - Medical Information
 - Policy / Advocacy
 - Other (explain very briefly)
