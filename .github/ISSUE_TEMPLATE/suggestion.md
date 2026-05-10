@@ -18,10 +18,14 @@ Title or name of source:
 
 Why is this important?
 
-Category:
+Category: 
+From this list, please delete all items except the one that fits best.
 - Research Study
 - News Article
 - Personal Story
 - Medical Information
 - Policy / Advocacy
-- Other
+- Other (explain very briefly)
+
+Country or region involved:
+(If applicable)
