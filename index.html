@@ -7,15 +7,16 @@
     body {
       font-family: Arial, sans-serif;
       margin: 0;
-      background-color: #f4f4f4;
-      color: #222;
+      background: #f7f3ea;
+      color: #1f2f2f;
+      line-height: 1.6;
     }
 
     nav {
-      background: white;
-      padding: 15px 20px;
+      background: #ffffff;
+      padding: 16px 20px;
       text-align: center;
-      border-bottom: 1px solid #ddd;
+      border-bottom: 1px solid #d8d0c2;
     }
 
     nav a {
@@ -26,88 +27,100 @@
     }
 
     header {
-      background-color: #2f4f4f;
+      background: linear-gradient(135deg, #2f4f4f, #4f8f87, #dceef2);
       color: white;
-      padding: 60px 20px;
+      padding: 80px 20px;
       text-align: center;
     }
 
     h1 {
       margin: 0;
-      font-size: 48px;
+      font-size: 54px;
+      letter-spacing: 1px;
     }
 
     .subtitle {
-      font-size: 20px;
+      font-size: 22px;
       margin-top: 15px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
     }
 
     .content {
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
-      padding: 40px 20px;
-      background: white;
+      padding: 45px 20px;
     }
 
-    .section {
-      margin-bottom: 50px;
+    .card {
+      background: white;
+      border-radius: 22px;
+      padding: 34px;
+      margin-bottom: 34px;
+      box-shadow: 0 8px 22px rgba(47, 79, 79, 0.12);
+      border: 1px solid #e2ded5;
     }
 
     h2 {
+      color: #2f4f4f;
+      margin-top: 0;
+      font-size: 30px;
+    }
+
+    a {
       color: #2f4f4f;
     }
 
     .button {
       display: inline-block;
-      padding: 12px 20px;
+      padding: 13px 22px;
       background-color: #2f4f4f;
       color: white;
       text-decoration: none;
-      border-radius: 6px;
+      border-radius: 999px;
       margin: 10px 8px 0 0;
       font-weight: bold;
     }
 
     .mini-infographic {
-      background: linear-gradient(135deg, #e8f5f2, #eef7fb);
-      border: 2px solid #9cc9c3;
-      border-radius: 14px;
-      padding: 30px;
-      margin-bottom: 50px;
+      background: linear-gradient(135deg, #e6f4ef, #eaf6fb);
+      border: 3px solid #9cc9c3;
       text-align: center;
     }
 
     .mini-infographic h2 {
-      font-size: 40px;
+      font-size: 46px;
       color: #0b2d4d;
-      margin: 0;
+      margin-bottom: 5px;
     }
 
-    .mini-infographic .tagline {
-      font-size: 22px;
+    .tagline {
+      font-size: 23px;
       color: #1b7f78;
       font-weight: bold;
-      margin: 8px 0 25px;
+      margin-bottom: 25px;
     }
 
     .stats {
       display: flex;
-      gap: 15px;
+      gap: 18px;
       justify-content: center;
       flex-wrap: wrap;
-      margin: 25px 0;
+      margin: 28px 0;
     }
 
     .stat-box {
-      background: white;
-      border-radius: 12px;
-      padding: 20px;
-      width: 230px;
+      background: #ffffff;
+      border-radius: 18px;
+      padding: 22px;
+      width: 240px;
       border: 1px solid #c7dedb;
+      box-shadow: 0 4px 12px rgba(47, 79, 79, 0.08);
     }
 
     .stat-number {
-      font-size: 34px;
+      font-size: 38px;
       font-weight: bold;
       color: #2f4f4f;
     }
@@ -117,18 +130,43 @@
     }
 
     .product-note {
-      background: white;
-      border-left: 6px solid #1b7f78;
-      padding: 18px;
+      background: #ffffff;
+      border-left: 8px solid #6d4c8d;
+      padding: 20px;
       text-align: left;
       margin-top: 25px;
-      border-radius: 8px;
+      border-radius: 12px;
     }
 
     .small-note {
       font-size: 14px;
       color: #555;
-      margin-top: 15px;
+      margin-top: 16px;
+    }
+
+    ul {
+      padding-left: 24px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .link-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+    }
+
+    .small-card {
+      background: #f8fbfa;
+      border-radius: 18px;
+      padding: 22px;
+      border: 1px solid #d6e5e2;
+    }
+
+    .small-card h2 {
+      font-size: 23px;
     }
   </style>
 </head>
@@ -146,13 +184,13 @@
 <header>
   <h1>Fragrance Free Future</h1>
   <div class="subtitle">
-    Raising awareness about fragrance sensitivity, health, and accessible air.
+    Public education for fragrance sensitivity, health, and accessible indoor air.
   </div>
 </header>
 
 <div class="content">
 
-  <div class="mini-infographic">
+  <div class="card mini-infographic">
     <h2>Scents Shouldn’t Hurt.</h2>
     <div class="tagline">A healthier future is fragrance free.</div>
 
@@ -193,7 +231,43 @@
     <a class="button" href="print.html">Print & Share</a>
   </div>
 
-  <div class="section">
+  <div class="card">
+    <h2>Our Mission</h2>
+
+    <p>Fragrance Free Future raises awareness about:</p>
+
+    <ul>
+      <li>fragrance exposure</li>
+      <li>fragrance sensitivity</li>
+      <li>accessible indoor air</li>
+      <li>the health and social impacts of fragranced environments</li>
+    </ul>
+
+    <p>We help people understand how fragranced products and spaces can affect:</p>
+
+    <ul>
+      <li>health</li>
+      <li>accessibility</li>
+      <li>inclusion</li>
+      <li>participation in everyday life</li>
+    </ul>
+
+    <p>Fragrance Free Future also creates space for:</p>
+
+    <ul>
+      <li>community voices</li>
+      <li>lived experiences</li>
+      <li>public participation</li>
+      <li>greater awareness of invisible barriers</li>
+    </ul>
+
+    <p>
+      Through stories, visuals, educational materials, and public awareness campaigns,
+      we support healthier, more accessible indoor spaces and broader cultural change.
+    </p>
+  </div>
+
+  <div class="card">
     <h2>Why This Matters</h2>
 
     <p>
@@ -210,38 +284,29 @@
     <a class="button" href="about.html">Learn More</a>
   </div>
 
-  <div class="section">
-    <h2><a href="research.html">Looking for the sources behind our posters?</a></h2>
+  <div class="link-grid">
 
-    <p>
-      Many of the statistics and health claims used in Fragrance Free Future posters come from peer-reviewed research and public health sources.
-    </p>
-  </div>
+    <div class="small-card">
+      <h2><a href="stories.html">Real Experiences</a></h2>
+      <p>
+        Anonymous stories from people affected by fragrance exposure and inaccessible indoor environments.
+      </p>
+    </div>
 
-  <div class="section">
-    <h2><a href="stories.html">Real Experiences</a></h2>
+    <div class="small-card">
+      <h2><a href="research.html">Research & Resources</a></h2>
+      <p>
+        Peer-reviewed research, public health sources, and accessibility information.
+      </p>
+    </div>
 
-    <p>
-      This project shares anonymous stories from people affected by fragrance
-      exposure and inaccessible indoor environments.
-    </p>
-  </div>
+    <div class="small-card">
+      <h2><a href="print.html">Print & Share</a></h2>
+      <p>
+        Download posters, information cards, and printable awareness materials.
+      </p>
+    </div>
 
-  <div class="section">
-    <h2><a href="research.html">Research & Resources</a></h2>
-
-    <p>
-      Explore scientific research, organizations, accessibility information,
-      and fragrance-free resources.
-    </p>
-  </div>
-
-  <div class="section">
-    <h2><a href="print.html">Print & Share</a></h2>
-
-    <p>
-      Download posters, information cards, and printable awareness materials.
-    </p>
   </div>
 
 </div>
